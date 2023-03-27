@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('navbar') %>
+   
+    <% if (workinghours){ %>
+    <div class="workDay">
+        <h1>service</h1>
+        <p>we have the best quality with the lowest price
+        <br> we have the best afterbuy service</p>
+    </div>
+      
+    <% } else{ %>
+        <div class="dayOff">
+            <h1>Sorry, we are currently closed.</h1>
+            <p>
+              We are open Monday to Friday, from 9 AM to 5 PM. Please come back on our working hours
+            </p>
+        </div>
+    <% } %>
+</body>
+</html>
