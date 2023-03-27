@@ -78,3 +78,26 @@ h1{
     font-size:50px;
     font-weight: 700; 
 }
+.TimeRest{
+    text-align: center;
+    position: absolute;
+    top :70%;
+    left: 50%; 
+    transform: translateY(-50%) translateX(-50%);  
+    font-size:40px;
+    font-weight: 600;
+}
+.sorry{
+    color: red;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .blink {
+    animation: blink 1s infinite;
+  }
+  .time{
+    display: flex;
+  }
