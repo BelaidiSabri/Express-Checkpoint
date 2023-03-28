@@ -12,7 +12,9 @@
     <% if (workinghours){ %>
     <div class="workDay">
         <h1>contact</h1>
-        <p>phone : 9999999999 <br> email: shop@gmail.com</p>
+        <div class="servcie_container">
+            <p>phone : 9999999999 <br> email: shop@gmail.com</p>
+        </div>
     </div>
       
     <% } else{ %>
@@ -27,6 +29,7 @@
               <%= day  %> <div class="blink"> : </div> days
               <%= hour %> <div class="blink"> : </div> hours
               <%= minute %> <div class="blink"> : </div> minutes
+              <%= second %> <div class="blink"> : </div> seconds
             </div>
           </span>
     </div>

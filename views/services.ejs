@@ -12,8 +12,10 @@
     <% if (workinghours){ %>
     <div class="workDay">
         <h1>service</h1>
-        <p>we have the best quality with the lowest price
-        <br> we have the best afterbuy service</p>
+        <div class="servcie_container">
+            <p>we have the best quality with the lowest price
+            <br> we have the best afterbuy service</p>
+        </div>
     </div>
       
     <% } else{ %>
@@ -28,6 +30,7 @@
                   <%= day  %> <div class="blink"> : </div> days
                   <%= hour %> <div class="blink"> : </div> hours
                   <%= minute %> <div class="blink"> : </div> minutes
+                  <%= second %> <div class="blink"> : </div> seconds
                 </div>
               </span>
         </div>
